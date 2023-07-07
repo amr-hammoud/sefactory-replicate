@@ -26,11 +26,11 @@ a {
 }
 
 .dark {
-    color: var(--off-white);
+    color: var(--mine-shaft);
 }
 
 .light {
-    color: var(--mine-shaft);
+    color: var(--off-white);
 }
 
 /* ************ */
@@ -48,7 +48,6 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
 }
 
 .green-overlay {
@@ -75,4 +74,69 @@ a {
     .hero-section {
         flex-direction: column;
     }
+}
+
+
+/* ******************* */
+/* HELLO WORLD SECTION */
+/* ******************* */
+
+.section-heading-light {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.section-heading-light h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-heading-light h2 span {
+    color: var(--main-green);
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+
+.three-dots {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.black-dot {
+    background: var(--mine-shaft);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.white-dot {
+    background: #d1d1d1;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.green-dot {
+    background: var(--main-green);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+
+/* ******************* */
+/* HELLO WORLD SECTION */
+/* ******************* */
+
+.hello-world {
+    background-color: var(--porcelain);
+    padding: 50px;
+}
+
+.youtube-video {
+
 }
