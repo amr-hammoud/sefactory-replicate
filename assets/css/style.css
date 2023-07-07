@@ -27,14 +27,6 @@ a {
     text-decoration: none;
 }
 
-.dark {
-    color: var(--mine-shaft);
-}
-
-.light {
-    color: var(--off-white);
-}
-
 h1 {
     font-size: 36px;
     font-weight: 900;
@@ -48,6 +40,20 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: 900;
+}
+
+.container {
+    margin: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.dark {
+    color: var(--mine-shaft);
+}
+
+.light {
+    color: var(--off-white);
 }
 
 /* ************ */
@@ -95,7 +101,7 @@ h3 {
 
 
 /* ******************* */
-/* HELLO WORLD SECTION */
+/* LIGHT HEADING STYLE */
 /* ******************* */
 
 .section-heading-light {
@@ -103,6 +109,7 @@ h3 {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    padding: 50px 0;
 }
 
 .section-heading-light h2{
@@ -154,9 +161,11 @@ h3 {
 
 .hello-world {
     background-color: var(--porcelain);
-    padding: 50px;
 }
 
 .youtube-video {
-
+    height: 600px;
+    background: var(--main-green);
+    padding: 15px;
+    border-radius: 20px;
 }
