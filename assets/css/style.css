@@ -19,6 +19,8 @@
 
 body {
     font-family: "Noto Sans Mono", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 a {
@@ -31,6 +33,21 @@ a {
 
 .light {
     color: var(--off-white);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 900;
 }
 
 /* ************ */
@@ -85,12 +102,14 @@ a {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .section-heading-light h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: var(--mine-shaft);
 }
 
 .section-heading-light h2 span {
@@ -103,6 +122,7 @@ a {
 .three-dots {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 90px;
 }
 
