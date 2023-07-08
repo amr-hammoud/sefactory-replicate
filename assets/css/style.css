@@ -51,7 +51,7 @@ section {
     padding-left: 100px;
     padding-right: 100px;
     margin: 0 80px 20px 80px;
-
+    width: 90%;
 }
 
 .dark {
@@ -188,18 +188,24 @@ section {
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
+    height: 430px;
+    min-height: 400px;
+    width: 100%;
 }
 
 .milestones-left {
     display: flex;
-    flex: 1 1 45%;
+    flex-flow: row wrap;
+    flex: 1 1 50%;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .success-rate {
     width: 100%;
-    height: 100%;
+    height: 95%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -228,10 +234,10 @@ section {
 .milestones-right {
     display: flex;
     flex-flow: row wrap;
-    flex: 1 1 45%;
+    flex: 1 1 50%;
     justify-content: center;
     align-items: center;
-    
+    height: 100%;
 }
 
 .milestones-group {
@@ -239,15 +245,20 @@ section {
     flex-flow: row nowrap;
     justify-content: space-around;
     width: 100%;
+    height: 50%;
 }
 
 .milestones-block {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
     flex: 0.5 0.5 40%;
     background-color: var(--porcelain);
     margin: 10px;
-    padding: 40px;
+    padding: 20px;
     border-radius: 12px;
-    width: 100%;
+    
 }
 
 .milestones-number {
