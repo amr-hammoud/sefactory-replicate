@@ -42,10 +42,15 @@ h3 {
     font-weight: 900;
 }
 
+section {
+    height: 80vh;
+}
+
 .container {
-    margin: 0;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 80px 20px 80px;
+
 }
 
 .dark {
@@ -161,10 +166,13 @@ h3 {
 
 .hello-world {
     background-color: var(--porcelain);
+    height: auto;
+    padding-bottom: 30px;
 }
 
 .youtube-video {
-    height: 600px;
+    height: 700px;
+    min-height: 400px;
     background: var(--main-green);
     padding: 15px;
     border-radius: 20px;
