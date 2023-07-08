@@ -11,6 +11,7 @@
 :root {
     --black: #232323;
     --mine-shaft: #363738;
+    --silver-chalice: #A5A6A9;
     --porcelain: #F1F2F3;
     --off-white: #FCFCFD;
     --white: #FFFFFF;
@@ -139,15 +140,31 @@ section {
     width: 90px;
 }
 
-.black-dot {
-    background: var(--mine-shaft);
+
+
+.white-dot {
+    background: var(--off-white);
     height: 20px;
     width: 20px;
     border-radius: 50%;
 }
 
-.white-dot {
+.off-white-dot {
     background: #d1d1d1;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.gray-dot {
+    background: var(--silver-chalice);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.black-dot {
+    background: var(--mine-shaft);
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -160,6 +177,37 @@ section {
     border-radius: 50%;
 }
 
+
+
+
+
+/* ******************* */
+/* DARK HEADING STYLE */
+/* ******************* */
+
+.section-heading-dark {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.section-heading-dark h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--off-white);
+    background-color: var(--mine-shaft);
+    padding: 0 10px;
+
+}
+
+.section-heading-dark h2 span {
+    color: var(--main-green);
+    font-size: 36px;
+    margin-right: 10px;
+}
 
 /* ******************* */
 /* HELLO WORLD SECTION */
@@ -264,4 +312,13 @@ section {
 .milestones-number {
     font-size: 60px;
     font-weight: 900;
+}
+
+
+/* **************** */
+/* PROGRAMS SECTION */
+/* **************** */
+
+.programs {
+    background-color: var(--main-green);
 }
