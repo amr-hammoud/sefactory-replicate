@@ -140,8 +140,6 @@ section {
     width: 90px;
 }
 
-
-
 .white-dot {
     background: var(--off-white);
     height: 20px;
@@ -176,10 +174,6 @@ section {
     width: 20px;
     border-radius: 50%;
 }
-
-
-
-
 
 /* ******************* */
 /* DARK HEADING STYLE */
@@ -314,11 +308,27 @@ section {
     font-weight: 900;
 }
 
-
 /* **************** */
 /* PROGRAMS SECTION */
 /* **************** */
 
 .programs {
     background-color: var(--main-green);
+}
+
+.programs-tabs {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+.programs-tabs div {
+    font-weight: 900;
+    padding: 20px 50px;
+}
+
+.programs-tabs .selected {
+    color: var(--main-green);
+    background-color: var(--mine-shaft);
+    border-radius: 12px 12px 0 0;
 }
