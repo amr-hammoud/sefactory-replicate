@@ -186,12 +186,13 @@ section {
 .milestones-wrapper {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .milestones-left {
     display: flex;
+    flex: 1 1 45%;
     justify-content: center;
     align-items: center;
 }
@@ -204,6 +205,7 @@ section {
     justify-content: center;
     align-items: flex-start;
     padding: 40px 70px;
+    margin: 10px;
     background-color: var(--porcelain);
     border-radius: 12px;
 }
@@ -221,4 +223,34 @@ section {
 
 .success-rate-details {
     font-size: 13px;
+}
+
+.milestones-right {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 45%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.milestones-group {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.milestones-block {
+    flex: 0.5 0.5 40%;
+    background-color: var(--porcelain);
+    margin: 10px;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.milestones-number {
+    font-size: 60px;
+    font-weight: 900;
 }
