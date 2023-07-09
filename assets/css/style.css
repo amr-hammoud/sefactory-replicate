@@ -980,4 +980,5 @@ header .header-menu {
     font-weight: 900;
     color: var(--off-white);
     background-color: var(--black);
+    border: 0;
 }
