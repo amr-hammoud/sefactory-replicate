@@ -982,3 +982,55 @@ header .header-menu {
     background-color: var(--black);
     border: 0;
 }
+
+/* ************** */
+/* FOOTER SECTION */
+/* ************** */
+
+footer {
+    background-color: var(--black);
+}
+
+.footer-info {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 50px 0;
+}
+
+.footer-menu {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.menu-block-left {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.menu-block-left p{
+    color: var(--off-white);
+    font-weight: 900;
+}
+
+.menu-block-left a {
+    margin: 10px 0;
+    color: var(--silver-chalice);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.menu-block-right {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.menu-block-right a {
+    margin: 10px 0;
+    color: var(--silver-chalice);
+    font-size: 14px;
+    font-weight: 900;
+}
