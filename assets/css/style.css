@@ -955,5 +955,29 @@ header .header-menu {
 
 .subscribe-info {
     color: var(--silver-chalice);
+}
 
+.subscribe form {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+}
+
+.input-subscribe {
+    height: 40px;
+    padding: 5px 15px;
+}
+
+.input-subscribe::placeholder {
+    font-family: "Noto Sans Mono", sans-serif;
+    color: var(--silver-chalice);
+}
+
+.btn-subscribe {
+    height: 40px;
+    padding: 10px;
+    font-family: "Noto Sans Mono", sans-serif;
+    font-weight: 900;
+    color: var(--off-white);
+    background-color: var(--black);
 }
