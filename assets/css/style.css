@@ -901,3 +901,27 @@ header .header-menu {
     font-family: "Noto Sans Mono", sans-serif;
     font-weight: 900;
 }
+
+/* **************** */
+/* PARTNERS SECTION */
+/* **************** */
+
+.partners-group {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.partners-group .partner-image {
+    height: auto;
+    width: 10%;
+    margin: 20px;
+}
+
+.partners-group .partner-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
