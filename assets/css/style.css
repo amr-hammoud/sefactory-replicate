@@ -753,3 +753,12 @@ header .header-menu {
 .faq-box .answer ul {
     margin-left: 40px;
 }
+
+.view-all {
+    color: var(--off-white);
+    background-color: var(--black);
+    padding: 15px;
+    width: 100%;
+    text-align: end;
+    font-weight: 900;
+}
