@@ -845,6 +845,7 @@ header .header-menu {
 .form-label {
     font-size: 12px;
     font-weight: 900;
+    margin-top: 10px;
 }
 
 .form-input {
@@ -874,7 +875,16 @@ header .header-menu {
 
 .textarea-inquiry {
     width: 100%;
-    padding: 10px;
+    height: auto;
+    min-height: 120px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.textarea-inquiry::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--silver-chalice);
 }
 
 .btn-submit {
