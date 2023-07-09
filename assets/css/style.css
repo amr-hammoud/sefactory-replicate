@@ -602,8 +602,27 @@ header .header-menu {
 
 .hire-info .details .contact-us{
     background-color: var(--mine-shaft);
-    padding: 10px;
+    padding: 15px;
     width: 100%;
     text-align: end;
     font-weight: 900;
+}
+
+.hr-factory {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--black);
+    color: var(--off-white);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
+}
+
+.hr-factory * {
+    margin-left: 20px;
 }
