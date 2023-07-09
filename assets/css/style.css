@@ -1035,3 +1035,25 @@ footer {
     font-size: 14px;
     font-weight: 900;
 }
+
+.social-links {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.social-links .links {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.social-links .links a{
+    background-color: var(--silver-chalice);
+    padding: 5px;
+    border-radius: 7px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
