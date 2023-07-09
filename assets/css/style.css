@@ -1043,9 +1043,15 @@ footer {
     height: 100%;
 }
 
+.social-links .logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .social-links .links {
     display: flex;
     flex-flow: row nowrap;
+    margin-top: 60px;
 }
 
 .social-links .links a{
