@@ -859,3 +859,35 @@ header .header-menu {
     font-family: "Noto Sans Mono", sans-serif;
 }
 
+.radio-group {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.radio-item {
+    margin: 5px 10px;
+}
+
+.radio-label {
+    font-size: 14px;
+}
+
+.textarea-inquiry {
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+.btn-submit button{
+    padding: 10px;
+    color: var(--mine-shaft);
+    background-color: var(--main-green);
+    font-family: "Noto Sans Mono", sans-serif;
+    font-weight: 900;
+}
