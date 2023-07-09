@@ -989,6 +989,7 @@ header .header-menu {
 
 footer {
     background-color: var(--black);
+    padding-bottom: 50px;
 }
 
 .footer-container {
@@ -1069,4 +1070,19 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer .rights {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: var(--silver-chalice);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+footer .rights a{
+    color: var(--silver-chalice);
+    font-size: 14px;
+    font-weight: 900;
 }
