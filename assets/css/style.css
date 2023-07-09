@@ -366,6 +366,7 @@ header .header-menu {
 .youtube-video iframe {
     height: 100%;
     width: 100%;
+    border-radius: 12px;
 }
 
 /* ****************** */
@@ -389,7 +390,7 @@ header .header-menu {
     flex: 1 1 50%;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 360px;
     width: 100%;
 }
 
@@ -427,7 +428,7 @@ header .header-menu {
     flex: 1 1 50%;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 360px;
 }
 
 .milestones-group {
