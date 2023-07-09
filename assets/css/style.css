@@ -68,6 +68,18 @@ section:not(.hero-section) {
     color: var(--main-green) !important;
 }
 
+.font-light {
+    font-weight: 200 !important;
+}
+
+.font-regular {
+    font-weight: 400 !important;
+}
+
+.font-bold {
+    font-weight: 900 !important;
+}
+
 /* ************ */
 /* HERO SECTION */
 /* ************ */
@@ -632,21 +644,6 @@ header .header-menu {
 /* TESTIMONIALS SECTION */
 /* ******************** */
 
-/* <div class="testimonials">
-    <div class="info">
-        <img src="assets/images/other/quote-icon.svg" alt="">
-        <div class="description">Growing up, I saw that every girl that had taken interest in anything technical or scientific had been undermined and underestimated in her field. That isn't fair, breaking this stereotype is a must. The first step I took towards doing this was to join SEF, a bootcamp that supported diversity and inclusion.</div>
-        <div class="Person">
-            <img src="assets/images/other/testimonial.png" alt="icon">
-            <div class="name"><span class="green">Zeina</span>O.</div>
-            <div class="bio">> SEF alumna working at <span class="green">Poyesis</span></div>
-        </div>
-    </div>
-    <div class="image">
-        <img src="assets/images/other/testimonial.png" alt="programs">
-    </div>
-</div> */
-
 .testimonials {
     display: flex;
     flex-flow: row nowrap;
@@ -709,4 +706,50 @@ header .header-menu {
     height: 100%;
     width: 100%;
     border-radius: 15px;
+}
+
+/* ************ */
+/* FAQS SECTION */
+/* ************ */
+
+.faqs {
+    background-color: var(--mine-shaft);
+    color: var(--off-white);
+}
+
+.faq-box {
+    background-color: var(--black);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+.faq-box .question {
+    font-size: 14px;
+    font-weight: 900;
+    display: flex;
+
+}
+
+.faq-box .question span{
+    margin-right: 10px;
+}
+
+.faq-box .answer {
+    font-size: 14px;
+    color: var(--porcelain);
+    font-weight: 300;
+    visibility: hidden;
+    height: 0;
+}
+
+.faq-box:hover .answer {
+    margin-top: 20px;
+    visibility: visible;
+    height: 100%;
+}
+
+.faq-box .answer ul {
+    margin-left: 40px;
 }
