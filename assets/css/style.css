@@ -44,14 +44,14 @@ h3 {
     font-weight: 900;
 }
 
-section {
-    height: 80vh;
+section:not(.hero-section) {
+    padding: 25px 0;
 }
 
 .container {
     padding-left: 100px;
     padding-right: 100px;
-    margin: 0 80px 20px 80px;
+    margin: 0 40px 20px 40px;
     width: 90%;
 }
 
@@ -61,6 +61,29 @@ section {
 
 .light {
     color: var(--off-white);
+}
+
+/* ************ */
+/* HERO SECTION */
+/* ************ */
+
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 40px 20px 40px;
+    width: 90%;
+    position: absolute;
+    top: 50px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+header .header-menu {
+    padding: 5px 5px 0 5px;
+    border-radius: 10px;
+    background-color: var(--mine-shaft);
 }
 
 /* ************ */
@@ -214,23 +237,29 @@ section {
 }
 
 .youtube-video {
-    height: 700px;
-    min-height: 400px;
+    aspect-ratio: 16 / 9;
+    width: 100%;
     background: var(--main-green);
     padding: 15px;
     border-radius: 20px;
+}
+
+.youtube-video iframe {
+    height: 100%;
+    width: 100%;
 }
 
 /* ****************** */
 /* MILESTONES SECTION */
 /* ****************** */
 
+
 .milestones-wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
-    height: 430px;
+    height: 100%;
     min-height: 400px;
     width: 100%;
 }
@@ -255,7 +284,7 @@ section {
     padding: 40px 70px;
     margin: 10px;
     background-color: var(--porcelain);
-    border-radius: 12px;
+    border-radius: 20px;
 }
 
 .success-rate-number {
@@ -299,8 +328,7 @@ section {
     background-color: var(--porcelain);
     margin: 10px;
     padding: 20px;
-    border-radius: 12px;
-    
+    border-radius: 20px;
 }
 
 .milestones-number {
@@ -331,4 +359,15 @@ section {
     color: var(--main-green);
     background-color: var(--mine-shaft);
     border-radius: 12px 12px 0 0;
+}
+
+.programs-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 380px;
+    width: 100%;
+    background-color: var(--mine-shaft);
+    border-radius: 20px;
 }
