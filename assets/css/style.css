@@ -64,6 +64,10 @@ section:not(.hero-section) {
     color: var(--off-white) !important;
 }
 
+.gray {
+    color: var(--silver-chalice);
+}
+
 .green {
     color: var(--main-green) !important;
 }
@@ -924,4 +928,32 @@ header .header-menu {
     width: 100%;
     object-fit: contain;
     object-position: center;
+}
+
+/* ***************** */
+/* SUBSCRIBE SECTION */
+/* ***************** */
+
+.subscribe {
+    background-color: var(--mine-shaft);
+}
+
+.subscribe-parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.subscribe-title {
+    color: var(--off-white);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 2;
+}
+
+.subscribe-info {
+    color: var(--silver-chalice);
+
 }
