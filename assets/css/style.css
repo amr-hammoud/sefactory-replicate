@@ -991,6 +991,13 @@ footer {
     background-color: var(--black);
 }
 
+.footer-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 40px;
+    width: 90%;
+}
+
 .footer-info {
     display: flex;
     flex-flow: row nowrap;
