@@ -833,5 +833,29 @@ header .header-menu {
 
 .form-group {
     display: flex;
+    flex-flow: row nowrap;
     width: 100%;
 }
+
+.form-item {
+    margin: 5px;
+    width: 100%;
+}
+
+.form-label {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.form-input {
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    padding: 5px 15px;
+}
+
+.form-input::placeholder {
+    color: var(--silver-chalice);
+    font-family: "Noto Sans Mono", sans-serif;
+}
+
