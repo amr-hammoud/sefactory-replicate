@@ -5,3 +5,7 @@ I used Julien's Medium article to have a clear idea about the UI, you can find i
 The main website is here [sefactory.io](https://sefactory.io/)
 
 The replicate website is hosted on Github pages [here](https://amr-hammoud.github.io/sefactory-replicate/)
+
+## License
+
+The design and brand belong to SE Factory. No license is granted.
